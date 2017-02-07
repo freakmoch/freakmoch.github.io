@@ -1,0 +1,175 @@
+/*
+   ___     WE'RE JUST      _          
+  / _ \_______ ___ ___ _  (_)__  ___ _
+ / // / __/ -_) _ `/  ' \/ / _ \/ _ `/
+/____/_/  \__/\_,_/_/_/_/_/_//_/\_, / 
+                               /___/  by freakmoch
+
+Coded with love in SCSS
+
+INDEX
+|-- IMPORTS: GOOGLE FONTS
+|-- BODY STUFF (html, body)
+|-- HEADERS (h1, h2, h3)
+|-- NAVIGATION
+|----- #borax
+|----- #nav
+|-- CONTAINERS
+|----- #wrapper
+|----- #content
+|-- IMAGES
+|----- .avi
+|----- .wug
+|-- LINKS
+
+*/
+// EXPORTS TO JUICE.CSS
+
+// Colors
+$c_slate: #1a1f20;
+$c_deepgreen: #2B3E32;
+$c_white: white;
+$c_rose: #e9a0a8;
+$c_lightblu: #a8bdbf;
+
+// Colors w Transparency
+$ca_deepgreen: rgba(43,62,50,0.7);
+$ca_white: rgba(255,255,255,0.8);
+$ca_lightblu: rgba(168,189,191, 0.5);
+
+// Fonts
+$font_family_1: 'Nunito Sans', sans-serif;
+$font_family_2: 'Gloria Hallelujah', cursive;
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+/* ------------------
+	BODY STUFF
+--------------------- */
+
+html {
+	margin: 0;
+	height: 100%;
+	font-family: $font_family_1;
+	font-size: 0.9em;
+	overflow: hidden;
+	color: $c_slate;
+}
+
+body {
+	margin: 0;
+	height: 100%;
+	font-family: $font_family_1;
+	font-size: 0.9em;
+	overflow: hidden;
+	color: $c_slate;
+	background: #fff url('hana.png') no-repeat fixed center;
+	background-size: cover;
+}
+
+/* ------------------
+	HEADERS
+--------------------- */
+
+h1, h2, h3, #borax {
+	font-family: $font_family_2;
+}
+
+/* ------------------
+	NAVIGATION
+--------------------- */
+
+#borax {
+	position: absolute;
+	bottom: 0px;
+	margin: 0px;
+	background-color: $ca_deepgreen;
+	border-top: 3px double white;
+	width: 100%;
+	height: 6%;
+	overflow: hidden;
+	
+	#nav {
+		height: inherit;
+		list-style: none;
+		
+		li {
+			width: 150px;
+			color: $c_white;
+			padding: 6% 3%;
+			border: 1px solid white;
+			display: inline;
+			background-color: $c_deepgreen;
+			transition: background-color 0.5s, color 0.5s;
+			
+			&:hover {
+				background-color: $ca_white;
+				color: $c_deepgreen;
+			}
+		}
+	}
+}
+
+/* ------------------
+	CONTAINERS
+--------------------- */
+
+#wrapper {
+	float: left;
+	margin: 0% 3%;
+	background: $ca_lightblu;
+	border-right: 10px double $ca_lightblu;
+	width: 30%;
+	height: 94%;
+	display: none;
+	#content {
+		margin: 0 auto;
+		padding: 2em;
+		height: inherit;
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+}
+
+/* ------------------
+	IMAGES
+--------------------- */
+
+img.avi {
+	margin: 0 auto;
+	border: solid 1px grey;
+	padding: 5px;
+	border-radius: 50%;
+}
+
+img.wug {
+	max-width: 95%;
+	margin: 0 auto;
+	border: solid 1px #ccc;
+	border-radius: 3px;
+	padding: 10px;
+}
+
+/* ------------------
+	LINKS
+--------------------- */
+
+a {
+	color: $c_rose;
+	text-decoration: none;
+	
+	//&:visited {
+	//	color: $c_rose;
+	//}
+	//&:active {
+	//	color: $c_rose;
+	//}
+
+	&:hover {
+		color: $c_rose;
+		text-decoration: line-through;
+	}
+}
+
+// End File.

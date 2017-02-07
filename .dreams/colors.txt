@@ -1,0 +1,85 @@
+		
+						<h2>Light Color Palette</h2>
+						<div class="colorpalette">
+							<div style="background-color: #8b8d8b;" title="#8b8d8b"><span>#8b8d8b</span></div>
+							<div style="background-color: #a79395;" title="#a79395"><span>#a79395</span></div>
+							<div style="background-color: #98a1a3;" title="#98a1a3"><span>#98a1a3</span></div>
+							<div style="background-color: #a6aeaf;" title="#a6aeaf"><span>#a6aeaf</span></div>
+							<div style="background-color: #beb5b3;" title="#beb5b3"><span>#beb5b3</span></div>
+							<div style="background-color: #a8bdbf;" title="#a8bdbf"><span>#a8bdbf</span></div>
+							<div style="background-color: #e9a0a8;" title="#e9a0a8"><span>#e9a0a8</span></div>
+						</div>
+						
+						<h2>Medium Color Palette</h2>
+						<div class="colorpalette">
+							<div style="background-color: #171a17;" title="#171a17"><span>#171a17</span></div>
+							<div style="background-color: #4e262a;" title="#4e262a"><span>#4e262a</span></div>
+							<div style="background-color: #314346;" title="#314346"><span>#314346</span></div>
+							<div style="background-color: #4c5d5e;" title="#4c5d5e"><span>#4c5d5e</span></div>
+							<div style="background-color: #7d6a66;" title="#7d6a66"><span>#7d6a66</span></div>
+							<div style="background-color: #517a7e;" title="#517a7e"><span>#517a7e</span></div>
+							<div style="background-color: #d34150;" title="#d34150"><span>#d34150</span></div>
+						</div>
+						
+						<h2>Dark Color Palette</h2>
+						<div class="colorpalette">
+							<div style="background-color: #090a09;" title="#090a09"><span>#090a09</span></div>
+							<div style="background-color: #1f0f10;" title="#1f0f10"><span>#1f0f10</span></div>
+							<div style="background-color: #131a1c;" title="#131a1c"><span>#131a1c</span></div>
+							<div style="background-color: #1e2525;" title="#1e2525"><span>#1e2525</span></div>
+							<div style="background-color: #322a28;" title="#322a28"><span>#322a28</span></div>
+							<div style="background-color: #203032;" title="#203032"><span>#203032</span></div>
+							<div style="background-color: #541a20;" title="#541a20"><span>#541a20</span></div>
+						</div>
+												
+						<h2>Complete Color Palette</h2>
+						<div class="colorpalette">
+						<div style="background-color: #4c5d5e;" title="#4c5d5e"><span>#4c5d5e</span></div>
+							<div style="background-color: #314346;" title="#314346"><span>#314346</span></div>
+							<div style="background-color: #83595f;" title="#83595f"><span>#83595f</span></div>
+							<div style="background-color: #5d8b89;" title="#5d8b89"><span>#5d8b89</span></div>
+							<div style="background-color: #2a2520;" title="#2a2520"><span>#2a2520</span></div>
+							<div style="background-color: #4d342a;" title="#4d342a"><span>#4d342a</span></div>
+							<div style="background-color: #3c2327;" title="#3c2327"><span>#3c2327</span></div>
+							<div style="background-color: #252521;" title="#252521"><span>#252521</span></div>
+							<div style="background-color: #171a17;" title="#171a17"><span>#171a17</span></div>
+							<div style="background-color: #a4924c;" title="#a4924c"><span>#a4924c</span></div>
+							<div style="background-color: #729589;" title="#729589"><span>#729589</span></div>
+							<div style="background-color: #496668;" title="#496668"><span>#496668</span></div>
+							<div style="background-color: #4e262a;" title="#4e262a"><span>#4e262a</span></div>
+							<div style="background-color: #d34150;" title="#d34150"><span>#d34150</span></div>
+							<div style="background-color: #2b2e22;" title="#2b2e22"><span>#2b2e22</span></div>
+							<div style="background-color: #1f2826;" title="#1f2826"><span>#1f2826</span></div>
+							<div style="background-color: #4e514b;" title="#4e514b"><span>#4e514b</span></div>
+							<div style="background-color: #7d6a66;" title="#7d6a66"><span>#7d6a66</span></div>
+							<div style="background-color: #2b3e32;" title="#2b3e32"><span>#2b3e32</span></div>
+							<div style="background-color: #486139;" title="#486139"><span>#486139</span></div>
+							<div style="background-color: #a6848d;" title="#a6848d"><span>#a6848d</span></div>
+							<div style="background-color: #1b1e1a;" title="#1b1e1a"><span>#1b1e1a</span></div>
+							<div style="background-color: #302e24;" title="#302e24"><span>#302e24</span></div>
+							<div style="background-color: #7a837d;" title="#7a837d"><span>#7a837d</span></div>
+							<div style="background-color: #634b4a;" title="#634b4a"><span>#634b4a</span></div>
+							<div style="background-color: #76817b;" title="#76817b"><span>#76817b</span></div>
+							<div style="background-color: #443e2e;" title="#443e2e"><span>#443e2e</span></div>
+							<div style="background-color: #879091;" title="#879091"><span>#879091</span></div>
+							<div style="background-color: #36382d;" title="#36382d"><span>#36382d</span></div>
+							<div style="background-color: #8e8286;" title="#8e8286"><span>#8e8286</span></div>
+							<div style="background-color: #191e1b;" title="#191e1b"><span>#191e1b</span></div>
+							<div style="background-color: #96b2b7;" title="#96b2b7"><span>#96b2b7</span></div>
+							<div style="background-color: #8a9694;" title="#8a9694"><span>#8a9694</span></div>
+							<div style="background-color: #656547;" title="#656547"><span>#656547</span></div>
+							<div style="background-color: #95a7a8;" title="#95a7a8"><span>#95a7a8</span></div>
+							<div style="background-color: #394349;" title="#394349"><span>#394349</span></div>
+							<div style="background-color: #191e1a;" title="#191e1a"><span>#191e1a</span></div>
+							<div style="background-color: #517a7e;" title="#517a7e"><span>#517a7e</span></div>
+							<div style="background-color: #bfd5d0;" title="#bfd5d0"><span>#bfd5d0</span></div>
+							<div style="background-color: #af9388;" title="#af9388"><span>#af9388</span></div>
+							<div style="background-color: #22261d;" title="#22261d"><span>#22261d</span></div>
+							<div style="background-color: #6a754a;" title="#6a754a"><span>#6a754a</span></div>
+							<div style="background-color: #414745;" title="#414745"><span>#414745</span></div>
+							<div style="background-color: #1a1f20;" title="#1a1f20"><span>#1a1f20</span></div>
+							<div style="background-color: #d6cfc4;" title="#d6cfc4"><span>#d6cfc4</span></div>
+							<div style="background-color: #d1fffb;" title="#d1fffb"><span>#d1fffb</span></div>
+							<div style="background-color: #897d78;" title="#897d78"><span>#897d78</span></div>
+							<div style="background-color: #424a50;" title="#424a50"><span>#424a50</span></div>
+						</div>	

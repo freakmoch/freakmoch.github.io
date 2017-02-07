@@ -1,0 +1,64 @@
+$c_lblue: #96b2d9;
+$c_dblue: #090f19;
+$c_grey: #edf1f9;
+$c_gblue: rgba(237,241,249,.5);
+
+$img_mosaic: "./img/dark-mosaic.png";
+$img_crys: "./img/crystal.png";
+$img_wuga: "./img/wuga.jpg";
+$img_wugm: "./img/wugm.png";
+
+    * { font-size: 1em; }
+
+	body, html {
+		height: 100%;
+		overflow: hidden;
+	}
+	  
+    body {
+        font-family: monospace;
+		background-color: $c_lblue; // fallback background
+		background: // multi-layer background
+			linear-gradient($c_gblue,rgba(50,50,50,.5)) no-repeat right top,
+			url($img_mosaic) repeat right top,
+			url($img_wuga) no-repeat center;
+		background-size: 100%, 300px, 100% auto;
+		color: $c_dblue;
+    }
+
+    //h2, h2 a {
+    //    font-size: 20px;
+    //}
+      
+    #container {
+        max-width: 45%;
+        margin: 0 auto;
+		margin-top: 7%;
+		background: $c_gblue 100%;
+		padding: 10px;
+		border-radius: 10px;
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        #wug {
+            margin: 0 auto;
+            background: url($img_crys);
+            border: solid 1px $c_grey;
+            border-radius: 3px;
+            padding: 10px;
+            max-width: 85%;
+        }
+
+        #dom, #dom ol, #dom li {
+            font-size: 11px;
+        }
+        
+
+	}
+      
+
+      
+    

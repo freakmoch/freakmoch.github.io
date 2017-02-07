@@ -1,0 +1,33 @@
+* {
+  font-size: 1em; }
+
+body, html {
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  font-family: monospace;
+  background-color: #96b2d9;
+  background: linear-gradient(rgba(237, 241, 249, 0.5), rgba(50, 50, 50, 0.5)) no-repeat right top, url("./img/dark-mosaic.png") repeat right top, url("./img/wuga.jpg") no-repeat center;
+  background-size: 100%, 300px, 100% auto;
+  color: #090f19; }
+
+#container {
+  max-width: 45%;
+  margin: 0 auto;
+  margin-top: 7%;
+  background: rgba(237, 241, 249, 0.5) 100%;
+  padding: 10px;
+  border-radius: 10px; }
+  #container a {
+    color: #fff;
+    text-decoration: none; }
+  #container #wug {
+    margin: 0 auto;
+    background: url("./img/crystal.png");
+    border: solid 1px #edf1f9;
+    border-radius: 3px;
+    padding: 10px;
+    max-width: 85%; }
+  #container #dom, #container #dom ol, #container #dom li {
+    font-size: 11px; }
