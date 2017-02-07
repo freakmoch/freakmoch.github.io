@@ -17,7 +17,7 @@ $img_wugm: "./img/wugm.png";
 	  
     body {
         font-family: monospace;
-		background-color: $c_lblue; // fallback background
+		background: $c_lblue url($img_wugm) bottom right no-repeat fixed; // fallback background
 		background: // multi-layer background
 			linear-gradient($c_gblue,rgba(50,50,50,.5)) no-repeat right top,
 			url($img_mosaic) repeat right top,

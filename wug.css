@@ -7,7 +7,7 @@ body, html {
 
 body {
   font-family: monospace;
-  background-color: #96b2d9;
+  background: #96b2d9 url('./img/wugm.png') bottom right no-repeat fixed; /* fallback */
   background: linear-gradient(rgba(237, 241, 249, 0.5), rgba(50, 50, 50, 0.5)) no-repeat right top, url("./img/dark-mosaic.png") repeat right top, url("./img/wuga.jpg") no-repeat center;
   background-size: 100%, 300px, 100% auto;
   color: #090f19; }
