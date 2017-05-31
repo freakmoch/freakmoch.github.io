@@ -11,28 +11,23 @@
 
 		<script>
 		
-			var known = 9, // How many you know - 1
+			var known = 11, // How many you know - 1
 				useable = 6, // How many you can use
 				accessed = new Array(6), // Accessable
 				maneuvers = [
-				"Clockwatcher",
-				"Spark Strike",
-				"Variable Flux",
-				"Arcane Sheild",
-				"Elemental Strike",
-				"Energy Jolt",
-				"Lance of Power",
-				"Eldritch Fang", 
-				"Raging Flux"
+					"Time Skitter",
+					"Gift of Time",
+					"Solar Reflection",
+					"Double Solar Reflection",
+					"Time-Thief’s Talons",
+					"Solar lance",
+					"Focused Solar Lance",
+					"Phantom Wind Ray",
+					"Grounding shot",
+					"Intercepting Shade",
+					"Temporal Body Adjustment"
 				],
-				elements = [
-					"Air",
-					"Fire",
-					"Earth",
-					"Water"
-				],
-				grape = rando(0, 4),
-				match = 9, 
+				match = known + 1, 
 				banana = 0;
 
 			function rando(min, max) {
@@ -40,11 +35,6 @@
 			  max = Math.floor(max);
 			  return Math.floor(Math.random() * (max - min)) + min;
 			}
-			
-			
-			document.write("<p><b>Today's element is " + elements[grape] + "! </b></p>")
-
-			document.write("1. Elemental Flux Stance<br />2. Embrace the Elements<br />");
 
 			for (var k = 0; k < useable; k++) {
 					if (k >= 1) {
@@ -63,9 +53,11 @@
 					}
 
 			}
+			
+			document.write("1. Sunwalker Stance<br />2. Phantom Sun Stance<br />3. Riven Hourglass Stance<br />"); // stances are always available to you!
 
 			for(var kink = 0; kink < useable; kink++) {
-				document.write(kink+3 + ". " + maneuvers[accessed[kink]] + "<br />"); // I know docwrite is shit but idc
+				document.write(kink+4 + ". " + maneuvers[accessed[kink]] + "<br />"); // I know docwrite is shit but idc
 			}
 
 		</script>
