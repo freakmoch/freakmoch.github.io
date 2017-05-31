@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<title>Patchibi's Mystic Maneuvers</title>
+		<style>
+			* {font-family: monospace;}
+		</style>
+	</head>
+	<body>
+
+		<h1>Maneuvers Time!</h1>
+
+		<script>
+		
+			var known = 8, // How many you know - 1
+				useable = 6, // How many you can use
+				accessed = new Array(6), // Accessable
+				maneuvers = [
+				"Clockwatcher",
+				"Embrace the Elements",
+				"Spark Strike",
+				"Variable Flux",
+				"Arcane Sheild",
+				"Elemental Strike",
+				"Elemental Flux Stance",
+				"Energy Jolt",
+				"Lance of Power"
+				],
+				match = 9, 
+				banana = 0;
+
+			function rando(min, max) {
+			  min = Math.ceil(min);
+			  max = Math.floor(max);
+			  return Math.floor(Math.random() * (max - min)) + min;
+			}
+
+			
+
+			for (var k = 0; k < useable; k++) {
+					if (k >= 1) {
+						banana = rando(0,known);
+						for (var bb = 0; bb < k; bb++) {
+							if (banana == accessed[bb]) {
+								k--;
+								break;
+							} else {
+								accessed[k] = banana;
+							}
+						}
+					} else {
+						banana = rando(0,known);
+						accessed[k] = banana;
+					}
+
+			}
+
+			for(var kink = 0; kink < useable; kink++) {
+				document.write(kink+1 + ". " + maneuvers[accessed[kink]] + "<br>"); // I know docwrite is shit but idc
+			}
+
+		</script>
+	</body>
+</html>
