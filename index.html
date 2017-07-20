@@ -9,24 +9,18 @@
 		$(function() {
 	
 			$("#playEr").hide();
-			
-			if(shown == false) {
-				
-				$( "#reveal" ).click(function( event ) {
+			$( "#reveal" ).click(function( event ) {
+				if(shown == false) {
 					console.log("MIRACULOUS!");
 					$("#playEr").show();
-				});
-				shown = true;
-			} else {
-				$( "#reveal" ).click(function( event ) {
+					shown = true;
+				} else {
 					console.log("SIMPLY THE BEST!");
 					$("#playEr").hide();
-					
-				});
-				shown = false;
-			}
-			
-		});
+					shown = false;
+				}// if..else shown
+			});// #reveal
+		}); // end jquery
 	</script>
 	
 	<style>
